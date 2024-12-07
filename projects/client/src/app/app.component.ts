@@ -7,11 +7,12 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import * as toastr from 'toastr';
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from "./features/auth/login/login.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule,RouterOutlet,HeaderComponent,FooterComponent ,HttpClientModule],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, HttpClientModule, LoginComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
