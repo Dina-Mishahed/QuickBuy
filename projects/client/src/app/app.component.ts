@@ -20,7 +20,7 @@ export class AppComponent {
 
   constructor(private http: HttpClient) {
 
-    this.postFunc()
+    // this.postFunc()
   }
   showSuccess() {
 
